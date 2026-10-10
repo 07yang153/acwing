@@ -3,7 +3,7 @@ using namespace std;
 const int N = 20;
 int n;
 char g[N][N];
-int col[N],dg[N],udg[N];
+bool col[N],dg[N],udg[N];
 void dfs(int u){
     if(u == n){
        for(int i = 0;i<n;++i){
